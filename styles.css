@@ -1,0 +1,63 @@
+header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.brand {
+  font-size: 2em;
+  color: maroon;
+  font-weight: bold;
+  margin-top: 0;
+  padding-top: 0;
+}
+
+nav>a {
+  color: black;
+  text-decoration: none;
+}
+
+main {
+  display: flex;
+  justify-content: space-between;
+  align-items: stretch;
+}
+
+.testimonial {
+  background-color: #999999;
+  color: #000000;
+  margin: 1vw;
+}
+
+article {
+  background-color: #f9f9f9;
+  color: black;
+  font-family: Arial;
+  font-size: 1em;
+  flex-grow: 3;
+}
+
+aside {
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  flex-grow: 2;
+}
+
+li {
+  background-color: maroon;
+  color: white;
+  margin: 5px;
+  padding: 5px;
+  border-radius: 5px;
+}
+
+footer {
+  background-color: black;
+  color: white;
+  display: flex;
+  justify-content: center;
+  padding: 1em;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
